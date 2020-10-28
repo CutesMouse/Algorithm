@@ -5,13 +5,14 @@ int tree[1000000];
 short cnt[100005];
 int pos[100005][2];
 void build(int cur, int p, int q) {
+    // 建構一棵二元樹
     if (p == q) {
         tree[cur] = 0;
         return;
     }
     int mid = (p+q) / 2;
     build(cur *2, p, mid);// Left
-    build(cur * 2 + 1, mid+1, q);
+    build(cur * 2 + 1, mid+1, q); // Right
     tree[cur] = tree[cur*2] + tree[cur*2 + 1];
 }
 int query(int cur, int p, int q, int x, int y) {
