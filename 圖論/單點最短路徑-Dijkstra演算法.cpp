@@ -1,9 +1,8 @@
 #include <iostream>
 #include <cstring>
-#include <algorithm>
 #include <queue>
-#define step second
-#define pos first
+#define step first
+#define pos second
 
 using namespace std;
 typedef pair<int, int> pp;
@@ -36,22 +35,24 @@ int main() {
     bond(5,4,10);
     // 前面只是在建立測試用地圖
     for (int i = 0; i <n; i++) {
-        dis[i] = {0,1000};
+        dis[i] = {1000,0};
     }
     pppq pq;
 
-    // x = pos, y = step
+    // x = step, y = pos
+    // 這個順序是固定的，為了讓pq順利判斷
     pq.emplace(0,0);
     dis[0] = {0,0};
 
     while (!pq.empty()) {
         auto p = pq.top();
+        //printf("%d, %d\n",p.first,p.second);
         pq.pop();
         for (int i =0; i < n;i++) {
             if (!edge_table[p.pos][i]) continue;
             if (dis[i].step > dis[p.pos].step + edge_table[p.pos][i]) {
-                dis[i] = {p.pos,dis[p.pos].step + edge_table[p.pos][i]};
-                pq.emplace(i,p.step + edge_table[p.pos][i]);
+                dis[i] = {dis[p.pos].step + edge_table[p.pos][i],p.pos};
+                pq.emplace(p.step + edge_table[p.pos][i],i);
             }
         }
     }
