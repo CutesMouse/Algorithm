@@ -39,10 +39,10 @@ https://hackmd.io/@sa072686/chtr
 ---
 
 ### DP
-https://zerojudge.tw/ShowProblem?problemid=f174
-https://tioj.ck.tp.edu.tw/problems/1176
-http://domen111.github.io/UVa-Easy-Viewer/?836 O(n^2)
-https://tioj.ck.tp.edu.tw/problems/1368
-http://domen111.github.io/UVa-Easy-Viewer/?11488
-https://toj.tfcis.org/oj/pro/169/
-https://tioj.ck.tp.edu.tw/problems/1618
+- https://zerojudge.tw/ShowProblem?problemid=f174
+- https://tioj.ck.tp.edu.tw/problems/1176
+- http://domen111.github.io/UVa-Easy-Viewer/?836 O(n^2)
+- https://tioj.ck.tp.edu.tw/problems/1368
+- http://domen111.github.io/UVa-Easy-Viewer/?11488
+- https://toj.tfcis.org/oj/pro/169/
+- https://tioj.ck.tp.edu.tw/problems/1618
