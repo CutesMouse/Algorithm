@@ -28,7 +28,6 @@ https://hackmd.io/@sa072686/chtr
 - https://atcoder.jp/contests/typical90/tasks/typical90_aq
 - https://atcoder.jp/contests/typical90/tasks/typical90_ay
 - https://atcoder.jp/contests/typical90/tasks/typical90_bd
-
 - https://atcoder.jp/contests/typical90/tasks/typical90_cc
 
 ---
