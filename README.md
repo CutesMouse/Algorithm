@@ -1,9 +1,13 @@
 # Algorithm
 
-## 翻譯
-https://hackmd.io/@sa072686/chtr
+這邊主要存放我的程式實作練習！
+目前仍有在更新NCU的計算機概論實習題！
 
 ## 全國賽 訓練題單
+
+### 翻譯
+https://hackmd.io/@sa072686/chtr
+
 ### 基礎：
 - https://atcoder.jp/contests/typical90/tasks/typical90_a
 - https://atcoder.jp/contests/typical90/tasks/typical90_d
